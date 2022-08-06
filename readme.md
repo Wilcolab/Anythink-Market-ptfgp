@@ -10,4 +10,8 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+In Terminal, navigate to the project root directory. Then run docker-compose up. To check if the backend is running and able to connect to your local database, point your browser to: http://localhost:3000/api/ping
+
+To check the frontend and make sure it's connected to the backend, create a new user at: http://localhost:3001/register
+
+Run all scripts on one of the container created by docker-compose up. Use docker exec to run commands on a running container.
